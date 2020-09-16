@@ -1,0 +1,32 @@
+@import '../../@theme/styles/themes';
+
+@include nb-install-component() {
+    nb-card{
+        width: 100%;
+    }
+  .data-container{
+    height: calc(100vh - 300px);
+    width: 100%;
+    overflow-y: auto;
+
+    table{
+        width: 100%;
+        thead {
+            th {
+                padding: 10px;
+                background-color: #ddd;
+            }
+        }
+        tbody {
+            td {
+                padding: 10px;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+
+    }
+  }
+
+
+}
